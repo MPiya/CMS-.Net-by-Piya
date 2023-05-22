@@ -127,51 +127,9 @@ namespace BulkyBookWeb.Controllers
 
 
 
-        public IActionResult Delete(int? id)
-        {
+     
 
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-
-            var CoverTypeFromDb = _unitOfWork.CoverType.GetFirstOrDefault(u=>u.Id==id);
-
-            if (CoverTypeFromDb == null)
-            {
-                return NotFound();
-            }
-            return View(CoverTypeFromDb);
-        }
-
-        [HttpPost,ActionName("Delete")]
-            [ValidateAntiForgeryToken]
-        public IActionResult DeletePost(int? id)
-        {
-
-            var obj = _unitOfWork.CoverType.GetFirstOrDefault(u => u.Id == id);
-
-            if (obj == null)
-            {
-                return NotFound();
-            }
-
-
-                _unitOfWork.CoverType.Remove(obj);
-            _unitOfWork.Save();
-            TempData["success"] = "Delete updated successfully";
-            return RedirectToAction("Index");
-            
-
-
-        }
-      
-        public IActionResult Dada()
-        {
-          
-            return View();
-        }
+     
 
         #region API CALLS
         [HttpGet]
@@ -180,6 +138,34 @@ namespace BulkyBookWeb.Controllers
             var productList = _unitOfWork.Product.GetAll(includeProperties:"Category,CoverType");
             return Json(new { data = productList });
         }
-        #endregion
-    }
+
+        //Post
+        [HttpDelete]
+	
+		public IActionResult DeletePost(int? id)
+		{
+
+			var obj = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
+
+			if (obj == null)
+			{
+                return Json(new { success = false, message = "Error while deleting" });
+			}
+
+			var oldImagePath = Path.Combine(_hostEnvironment.WebRootPath, obj.ImageUrl.Trim('\\'));
+			if (System.IO.File.Exists(oldImagePath))
+			{
+				System.IO.File.Delete(oldImagePath);
+			}
+
+			_unitOfWork.Product.Remove(obj);
+			_unitOfWork.Save();
+			return Json(new { success = true, message = "Delete Successful" });
+	
+
+
+		}
+
+		#endregion
+	}
 }
