@@ -315,7 +315,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[7.0.1, )"
+              "version": "[7.0.6, )"
             },
             "Stripe.net": {
               "target": "Package",

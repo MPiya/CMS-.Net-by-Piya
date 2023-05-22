@@ -18,6 +18,12 @@
 					<input asp-for="Product.Title" class="form-control" />
 					<span asp-validation-for="Product.Title" class="text-danger"></span>
 				</div>
+
+
+				<div class="col-2 pt-4">
+					<img src="@Model.Product.ImageUrl"
+						 style="border-radius:5px; border:1px solid #bbb9b9" ; width: 10px />
+				</div>
 				<div class="mb-3">
 					<label asp-for="Product.Description"></label>
 					<textarea asp-for="Product.Description" rows="3" class="form-control"></textarea>
@@ -91,9 +97,10 @@
  
 
 		</div>
+
 		<div class="col-2 pt-4">
 			<img src="@Model.Product.ImageUrl"
-				 width="100%" style="border-radius:5px; border:1px solid #bbb9b9" />
+				  style="border-radius:5px; border:1px solid #bbb9b9" />
 		</div>
 	</div>
 
