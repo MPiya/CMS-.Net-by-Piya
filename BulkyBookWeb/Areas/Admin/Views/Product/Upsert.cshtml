@@ -20,10 +20,7 @@
 				</div>
 
 
-				<div class="col-2 pt-4">
-					<img src="@Model.Product.ImageUrl"
-						 style="border-radius:5px; border:1px solid #bbb9b9" ; width: 10px />
-				</div>
+		
 				<div class="mb-3">
 					<label asp-for="Product.Description"></label>
 					<textarea asp-for="Product.Description" rows="3" class="form-control"></textarea>
@@ -100,8 +97,9 @@
 
 		<div class="col-2 pt-4">
 			<img src="@Model.Product.ImageUrl"
-				  style="border-radius:5px; border:1px solid #bbb9b9" />
+				 style="border-radius:5px; border:1px solid #bbb9b9; width: 300px;" />
 		</div>
+
 	</div>
 
 
