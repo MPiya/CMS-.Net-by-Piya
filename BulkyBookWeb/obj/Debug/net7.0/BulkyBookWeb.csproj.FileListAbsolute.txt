@@ -105,7 +105,6 @@ C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\refs\Micros
 C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\refs\Microsoft.Extensions.Features.dll
 C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\refs\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\refs\Microsoft.Extensions.FileProviders.Composite.dll
-C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
 C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\refs\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\refs\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\refs\Microsoft.Extensions.Hosting.Abstractions.dll
@@ -592,3 +591,5 @@ C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\obj\Debug\net7.0\refint\Bulk
 C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\obj\Debug\net7.0\BulkyBookWeb.pdb
 C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\obj\Debug\net7.0\BulkyBookWeb.genruntimeconfig.cache
 C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\obj\Debug\net7.0\ref\BulkyBookWeb.dll
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll

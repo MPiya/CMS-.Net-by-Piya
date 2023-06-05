@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAlp6F+Q9bCkKtlj5G2FH1OwAAAAACAAAAAAAQZgAAAAEAACAAAADD0+HzbSXf4T4mlnYL/eaEks/tnjoSmrxU6IEZULTDFQAAAAAOgAAAAAIAACAAAABg40BaXhMlh3av7aAC18eIGsAQoBp4yVDuVB1yF3I/poAAAAD+oYC09YAFpVoxwkbdYlTlhK0ozdVs+kWI6r1cU/44WCzz/hAdcKujHotElQfIXw6r9d6OM3o80fboueSpw7ItGK9p4TCl+vQBv3hOxEr2KhJ6nyBKTBAfU/WEk9FliTSZY7YZIkT+x6rHzkjuxbbbw1YoWipDc3WDG9qM7/xDCEAAAAA7DQOZSMohdqxSYFPCHWQmD8bYT8y8BWr0csYaE5SausoKssdsaY5dBh/6HK1XEt2NeWPgsMzi8DF1wuOztetA</EncryptedPassword>
+    <History>True|2023-05-26T03:39:02.9741532Z;True|2023-05-26T03:06:23.7726754+02:00;True|2023-05-26T02:49:44.0850417+02:00;False|2023-05-26T02:45:04.1801790+02:00;True|2023-05-26T02:23:44.6236539+02:00;False|2023-05-26T02:18:09.8152639+02:00;False|2023-05-26T02:17:16.2780254+02:00;False|2023-05-26T02:15:40.6867867+02:00;False|2023-05-26T02:09:04.7585441+02:00;False|2023-05-26T02:04:24.5790699+02:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:masterpiyaboot.database.windows.net,1433%3bInitial Catalog=BookStoreByBon%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=Awakemode321%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jc/LdnzaqPZtBGlJOZygDnuLrrYregDP/6JMvNNKAt5q45GYsSJ54S3JINv6dciHa2mF8I2VeFTLHEBrwsEH6g==",
+  "dgSpecHash": "zBdQDCJ3GQQAmRCG64acpJrvInW4mtWItciLWK/GX3vj1/n8iTCU2MrWrWM/B555hAFQ5zss9mxNjvgL4kyXEA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBook.DataAccess\\BulkyBook.DataAccess.csproj",
   "expectedPackageFiles": [
@@ -27,8 +27,7 @@
     "C:\\Users\\Bon\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.2.0\\microsoft.aspnetcore.http.extensions.2.2.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
-    "C:\\Users\\Bon\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.1\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.1.nupkg.sha512",
-    "C:\\Users\\Bon\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\8.0.0-preview.2.23153.2\\microsoft.aspnetcore.identity.ui.8.0.0-preview.2.23153.2.nupkg.sha512",
+    "C:\\Users\\Bon\\.nuget\\packages\\microsoft.aspnetcore.identity.entityframeworkcore\\7.0.0\\microsoft.aspnetcore.identity.entityframeworkcore.7.0.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\2.2.0\\microsoft.aspnetcore.jsonpatch.2.2.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.2.0\\microsoft.aspnetcore.mvc.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Bon\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.2.0\\microsoft.aspnetcore.mvc.core.2.2.0.nupkg.sha512",

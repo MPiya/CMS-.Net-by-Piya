@@ -10,7 +10,7 @@
         "dependencies": {
           "BulkyBook.Models": "1.0.0",
           "BulkyBook.Utility": "1.0.0",
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.1",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.1",
           "Microsoft.EntityFrameworkCore.Relational": "7.0.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.1",
@@ -313,19 +313,18 @@
           }
         }
       },
-      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/7.0.1": {
+      "Microsoft.AspNetCore.Identity.EntityFrameworkCore/7.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Relational": "7.0.1",
           "Microsoft.Extensions.Identity.Stores": "8.0.0-preview.2.23153.2"
         },
         "runtime": {
           "lib/net7.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll": {
-            "assemblyVersion": "7.0.1.0",
-            "fileVersion": "7.0.122.56809"
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.51819"
           }
         }
       },
-      "Microsoft.AspNetCore.Identity.UI/8.0.0-preview.2.23153.2": {},
       "Microsoft.AspNetCore.JsonPatch/2.2.0": {
         "dependencies": {
           "Microsoft.CSharp": "4.5.0",
@@ -1832,6 +1831,7 @@
       "BulkyBook.Models/1.0.0": {
         "dependencies": {
           "Microsoft.AspNet.Mvc": "5.2.9",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.0",
           "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0",
           "Microsoft.Extensions.Identity.Stores": "8.0.0-preview.2.23153.2"
         },
@@ -1841,7 +1841,7 @@
       },
       "BulkyBook.Utility/1.0.0": {
         "dependencies": {
-          "Microsoft.AspNetCore.Identity.UI": "8.0.0-preview.2.23153.2",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.0",
           "SendGrid": "9.28.1"
         },
         "runtime": {
@@ -2017,19 +2017,12 @@
       "path": "microsoft.aspnetcore.http.features/2.2.0",
       "hashPath": "microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512"
     },
-    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/7.0.1": {
+    "Microsoft.AspNetCore.Identity.EntityFrameworkCore/7.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cP4FTxpOxV+z4t5jL2VqGuEpzy4BB6wzLR7vEmDv62erzGec4wNkRGs6OYXYyBrQIRn52JTsdWxDpyQtTUR8jA==",
-      "path": "microsoft.aspnetcore.identity.entityframeworkcore/7.0.1",
-      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.7.0.1.nupkg.sha512"
-    },
-    "Microsoft.AspNetCore.Identity.UI/8.0.0-preview.2.23153.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-3V3Hrq7hfeaJB5Gk0/dpwQgsUIwJU6OYfQEWDnXrzxbnxkBenyqMvIOFQV/UVDYJEE01vI4iX84sBN8k89xmaw==",
-      "path": "microsoft.aspnetcore.identity.ui/8.0.0-preview.2.23153.2",
-      "hashPath": "microsoft.aspnetcore.identity.ui.8.0.0-preview.2.23153.2.nupkg.sha512"
+      "sha512": "sha512-mtomuG24wGpvdblVQUj/JHIZ1i8oNhRNHr0V0re8fTkv15hz+AQLdtwbdd6FdINNeXiKi3kGmzZ7PE1KOyzoSg==",
+      "path": "microsoft.aspnetcore.identity.entityframeworkcore/7.0.0",
+      "hashPath": "microsoft.aspnetcore.identity.entityframeworkcore.7.0.0.nupkg.sha512"
     },
     "Microsoft.AspNetCore.JsonPatch/2.2.0": {
       "type": "package",

@@ -1,0 +1,12 @@
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBook.Models\bin\Release\net7.0\BulkyBook.Models.deps.json
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBook.Models\bin\Release\net7.0\BulkyBook.Models.dll
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBook.Models\bin\Release\net7.0\BulkyBook.Models.pdb
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBook.Models\obj\Release\net7.0\BulkyBook.Models.csproj.AssemblyReference.cache
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBook.Models\obj\Release\net7.0\BulkyBook.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBook.Models\obj\Release\net7.0\BulkyBook.Models.AssemblyInfoInputs.cache
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBook.Models\obj\Release\net7.0\BulkyBook.Models.AssemblyInfo.cs
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBook.Models\obj\Release\net7.0\BulkyBook.Models.csproj.CoreCompileInputs.cache
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBook.Models\obj\Release\net7.0\BulkyBook.Models.dll
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBook.Models\obj\Release\net7.0\refint\BulkyBook.Models.dll
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBook.Models\obj\Release\net7.0\BulkyBook.Models.pdb
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBook.Models\obj\Release\net7.0\ref\BulkyBook.Models.dll
