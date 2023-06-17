@@ -16,7 +16,7 @@ function loadDataTable() {
             { "data": "author", "width": "15%" },
             { "data": "category.name", "width": "15%" },
             {
-
+                  // data is a place holder for json object from GetALL Product, in this case its id,  
                 "data": "id",
                 "render": function (data) {
                     return `   
