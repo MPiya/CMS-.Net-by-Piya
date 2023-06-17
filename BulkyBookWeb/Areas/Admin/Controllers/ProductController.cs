@@ -63,13 +63,6 @@ namespace BulkyBookWeb.Controllers
         }
 
 
-
- 
-   
-  
-
-
-        
         [HttpPost]
         [ValidateAntiForgeryToken]
         public IActionResult Upsert(ProductVM obj, IFormFile file)

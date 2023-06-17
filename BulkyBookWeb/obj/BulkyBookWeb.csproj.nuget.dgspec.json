@@ -218,6 +218,10 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
             "SendGrid": {
               "target": "Package",
               "version": "[9.28.1, )"

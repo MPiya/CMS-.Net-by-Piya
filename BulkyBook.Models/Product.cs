@@ -12,7 +12,11 @@ namespace BulkyBook.Models
         public int Id { get; set; }
         [Required]
         public string Title { get; set; }
-        public string Description { get; set; }
+
+		//[Required]
+		public string? Description { get; set; }
+
+
         [Required]
         public string ISBN { get; set; }
         [Required]
@@ -39,7 +43,8 @@ namespace BulkyBook.Models
         public string ImageUrl { get; set; }
 
         [Required]
-        public int CategoryId { get; set; }
+		[Display(Name = "Category Type")]
+		public int CategoryId { get; set; }
         
         [ForeignKey("CategoryId")]
         
@@ -47,11 +52,12 @@ namespace BulkyBook.Models
         public Category Category { get; set; }
 
         [Required]
-      
-        public int CoverTypeId { get; set; }
+		[Display(Name = "Cover Type")]
+		public int CoverTypeId { get; set; }
 
 
         [ValidateNever]
+
         public CoverType CoverType { get; set; }
     }
 }

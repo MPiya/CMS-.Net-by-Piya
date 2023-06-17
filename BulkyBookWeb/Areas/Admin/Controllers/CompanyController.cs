@@ -4,6 +4,7 @@ using BulkyBook.Models;
 using BulkyBook.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.Extensions.Hosting;
 
 namespace BulkyBookWeb.Controllers
 {
@@ -40,13 +41,13 @@ namespace BulkyBookWeb.Controllers
 
             if (id == null || id == 0)
             {
-                //create product
+             
                 return View(company);
             }
             else
             {
-                company = _unitOfWork. .GetFirstOrDefault(u => u.Id == id);
-                //updae product
+                company = _unitOfWork.Company.GetFirstOrDefault(u => u.Id == id);
+      
 
                 return View(company);
             }
@@ -64,7 +65,7 @@ namespace BulkyBookWeb.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult Upsert(ProductVM obj, IFormFile file)
+        public IActionResult Upsert(Company obj)
         {
            
           
@@ -75,17 +76,19 @@ namespace BulkyBookWeb.Controllers
 
 
                 // when Id is 0 it means new product is added, if itsn ot then user want to upddate the product
-                if (obj.Product.Id == 0)
+                if (obj.Id == 0)
                 {
-                    _unitOfWork.Product.Add(obj.Product);
+                    _unitOfWork.Company.Add(obj);
+                    TempData["success"] = "Company add successfully";
                 }
                 else
                 {
-                    _unitOfWork.Product.Update(obj.Product);
+                    _unitOfWork.Company.Update(obj);
+                    TempData["success"] = "Company updated successfully";
                 }
-                _unitOfWork.Product.Add(obj.Product);
+
                 _unitOfWork.Save();
-                TempData["success"] = "Product updated successfully";
+           
                
                 return RedirectToAction("Index");
             }
@@ -100,41 +103,38 @@ namespace BulkyBookWeb.Controllers
 
      
 
+
         #region API CALLS
         [HttpGet]
         public IActionResult GetAll()
         {
-            var productList = _unitOfWork.Product.GetAll(includeProperties:"Category,CoverType");
-            return Json(new { data = productList });
+            var companyList = _unitOfWork.Company.GetAll();
+            return Json(new { data = companyList });
         }
 
         //Post
         [HttpDelete]
-	
-		public IActionResult DeletePost(int? id)
-		{
 
-			var obj = _unitOfWork.Product.GetFirstOrDefault(u => u.Id == id);
+        public IActionResult DeletePost(int? id)
+        {
 
-			if (obj == null)
-			{
+            var obj = _unitOfWork.Company.GetFirstOrDefault(u => u.Id == id);
+
+            if (obj == null)
+            {
                 return Json(new { success = false, message = "Error while deleting" });
-			}
-
-			var oldImagePath = Path.Combine(_hostEnvironment.WebRootPath, obj.ImageUrl.Trim('\\'));
-			if (System.IO.File.Exists(oldImagePath))
-			{
-				System.IO.File.Delete(oldImagePath);
-			}
-
-			_unitOfWork.Product.Remove(obj);
-			_unitOfWork.Save();
-			return Json(new { success = true, message = "Delete Successful" });
-	
+            }
 
 
-		}
+            _unitOfWork.Company.Remove(obj);
+            _unitOfWork.Save();
+            return Json(new { success = true, message = "Delete Successful" });
 
-		#endregion
-	}
+
+
+        }
+
+
+        #endregion
+    }
 }

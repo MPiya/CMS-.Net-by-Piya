@@ -4620,6 +4620,7 @@
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "7.0.0",
+          "Microsoft.AspNetCore.Identity.UI": "7.0.5",
           "SendGrid": "9.28.1"
         },
         "compile": {
