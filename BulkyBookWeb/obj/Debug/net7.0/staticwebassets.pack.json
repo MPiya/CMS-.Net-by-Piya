@@ -17,6 +17,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\images\\book.png",
+      "PackagePath": "staticwebassets\\images\\book.png"
+    },
+    {
+      "Id": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\images\\lawn_leaf.jpg",
+      "PackagePath": "staticwebassets\\images\\lawn_leaf.jpg"
+    },
+    {
       "Id": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\images\\products\\29a81f05-6361-41d1-af32-18517d603de2.jpg",
       "PackagePath": "staticwebassets\\images\\products\\29a81f05-6361-41d1-af32-18517d603de2.jpg"
     },
@@ -87,6 +95,10 @@
     {
       "Id": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\js\\company.js",
       "PackagePath": "staticwebassets\\js\\company.js"
+    },
+    {
+      "Id": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\js\\order.js",
+      "PackagePath": "staticwebassets\\js\\order.js"
     },
     {
       "Id": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\js\\product.js",

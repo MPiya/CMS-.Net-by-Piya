@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X+0WQilqsQu2Whi7fTN7t/mn5RAU830tIcNR9/ee010=",
+  "Hash": "n8aUW2GTr7QaxE8tafQN2+UN4w6HDzDVKoBZVa7CV1c=",
   "Source": "BulkyBookWeb",
   "BasePath": "_content/BulkyBookWeb",
   "Mode": "Default",
@@ -1122,6 +1122,40 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\images\\book.png",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/book.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\book.png"
+    },
+    {
+      "Identity": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\images\\lawn_leaf.jpg",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "images/lawn_leaf.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\lawn_leaf.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\images\\products\\29a81f05-6361-41d1-af32-18517d603de2.jpg",
       "SourceId": "BulkyBookWeb",
       "SourceType": "Discovered",
@@ -1426,6 +1460,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\company.js"
+    },
+    {
+      "Identity": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\js\\order.js",
+      "SourceId": "BulkyBookWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\",
+      "BasePath": "_content/BulkyBookWeb",
+      "RelativePath": "js/order.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\order.js"
     },
     {
       "Identity": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\js\\product.js",
