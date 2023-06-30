@@ -18,6 +18,8 @@ namespace BulkyBook.DataAccess.Repository
         {
             _db= db;
             //_db.ShoppingCarts.Include(u => u.Product).Include(u=>u.CoverType);
+
+            // _  _db.Set(T) is a generic class use to access any repository since its generic r
             this.dbSet= _db.Set<T>();
         }
         public void Add(T entity)

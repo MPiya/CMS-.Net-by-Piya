@@ -72,6 +72,7 @@
 				<div class="mb-3 col-6">
 					<label asp-for="Product.CoverTypeId"></label>
 					<select asp-for="Product.CoverTypeId" asp-items="@Model.CoverTypeList" class="form-select">
+						@* THIS  is just a placeholder it doesnt disabled select option*@
 						<option disabled selected>--Select CoverType--</option>
 					</select>
 					<span asp-validation-for="Product.CoverTypeId" class="text-danger"></span>

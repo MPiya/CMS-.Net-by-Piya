@@ -1,5 +1,4 @@
-﻿
- @*
+﻿@*
 
   Context.Request.Query["status"] retrieves the value of the "status" query parameter from the HTTP request. In your code, the possible values for the "status" parameter could be "pending", "completed", "inprocess", "approved", or any other value defined in your application.
 
@@ -16,7 +15,8 @@ By retrieving the value of the "status" query parameter, you can use it to deter
     var approved = "text-primary";
     var all = "text-primary";
 
-    switch (status) {
+    switch (status)
+    {
         case "pending":
             pending = "active text-white bg-primary";
             break;
@@ -37,23 +37,22 @@ By retrieving the value of the "status" query parameter, you can use it to deter
 
 }
 
-
 <div class="p-3">
-<div class="d-flex justify-content-between pt-4">
+    <div class="d-flex justify-content-between pt-4">
 
-    <div class="p-2">
+        <div class="p-2">
             <h2 class="text-primary">
-              Order List
+                Order List
             </h2>
-   </div> 
+        </div>
 
         <div class="p-2">
 
-           <ul class="list-group list-group-horizontal-sm">
-              <a style="text-decoration:none;" asp-controller="Order"
-              asp-action="Index" asp-route-status="inprocess" >
-                <li class="list-group-item @inprocess">In process</li>   
-                    </a>
+            <ul class="list-group list-group-horizontal-sm">
+                <a style="text-decoration:none;" asp-controller="Order"
+                   asp-action="Index" asp-route-status="inprocess">
+                <li class="list-group-item @inprocess">In process</li>
+                </a>
 
                 <a style="text-decoration:none;" asp-controller="Order"
                    asp-action="Index" asp-route-status="pending">
@@ -65,8 +64,8 @@ By retrieving the value of the "status" query parameter, you can use it to deter
                 <li class="list-group-item @completed">Completed</li>
                 </a>
 
-                  <a style="text-decoration:none;" asp-controller="Order"
-                   asp-action="Index" asp-route-status="completed">
+                <a style="text-decoration:none;" asp-controller="Order"
+                   asp-action="Index" asp-route-status="approved">
                 <li class="list-group-item @approved">Approved</li>
                 </a>
 
@@ -74,10 +73,12 @@ By retrieving the value of the "status" query parameter, you can use it to deter
                    asp-action="Index" asp-route-status="All">
                 <li class="list-group-item @all">all</li>
                 </a>
-             </ul>
+            </ul>
+
+
         </div>
     </div>
-    <br/> <br/>
+    <br /> <br />
     <table id="tblData" class="table table-bordered table-striped" style="width:100%">
         <thead>
             <tr>
@@ -95,10 +96,10 @@ By retrieving the value of the "status" query parameter, you can use it to deter
 
 
     </table>
-</div>  
-
 </div>
 
+
+
 @section Scripts{
-    <script src="~/js/order.js"> </script>
+    <script src="~/js/orderde.js"> </script>
 }
