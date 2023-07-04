@@ -201,6 +201,7 @@ namespace BulkyBookWeb.Controllers
 
                 if (session.PaymentStatus.ToLower() == "paid")
                 {
+                    _unitOfWork.OrderHeader.UpdateStripePaymentID(id, session.Id, session.PaymentIntentId);
                     _unitOfWork.OrderHeader.UpdateStatus(id, SD.StatusApproved, SD.PaymentStatusApproved);
                     _unitOfWork.Save();
                 }

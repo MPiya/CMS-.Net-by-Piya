@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\lawn_leaf.jpg"
     },
     {
+      "Id": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\images\\products\\0ec34ab3-fe55-4198-ba45-58f22babbc6b.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\0ec34ab3-fe55-4198-ba45-58f22babbc6b.jpg"
+    },
+    {
       "Id": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\images\\products\\19027470-1fdb-4a9d-bedd-c1c2074f6dff.jpg",
       "PackagePath": "staticwebassets\\images\\products\\19027470-1fdb-4a9d-bedd-c1c2074f6dff.jpg"
     },
@@ -97,12 +101,8 @@
       "PackagePath": "staticwebassets\\js\\company.js"
     },
     {
-      "Id": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\js\\order.js",
-      "PackagePath": "staticwebassets\\js\\order.js"
-    },
-    {
-      "Id": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\js\\orderhe.js",
-      "PackagePath": "staticwebassets\\js\\orderhe.js"
+      "Id": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\js\\orderde.js",
+      "PackagePath": "staticwebassets\\js\\orderde.js"
     },
     {
       "Id": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\js\\product.js",
