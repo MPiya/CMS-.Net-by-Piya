@@ -238,6 +238,7 @@
                                 </li>
                             </ul>
 
+                            @* this is outside of Role Admin and Employee because Company User can use Pay now function*@
                             @if (Model.OrderHeader.PaymentStatus == SD.PaymentStatusDelayedPayment &&
                             Model.OrderHeader.OrderStatus == SD.StatusShipped)
                             {

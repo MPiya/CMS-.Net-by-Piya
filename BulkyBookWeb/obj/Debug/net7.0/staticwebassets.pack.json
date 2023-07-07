@@ -101,6 +101,10 @@
       "PackagePath": "staticwebassets\\js\\company.js"
     },
     {
+      "Id": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\js\\history.js",
+      "PackagePath": "staticwebassets\\js\\history.js"
+    },
+    {
       "Id": "C:\\Users\\Bon\\source\\repos\\BulkyBookWeb\\BulkyBookWeb\\wwwroot\\js\\orderde.js",
       "PackagePath": "staticwebassets\\js\\orderde.js"
     },

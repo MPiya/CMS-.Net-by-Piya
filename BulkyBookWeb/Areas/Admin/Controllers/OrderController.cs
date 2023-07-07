@@ -13,7 +13,7 @@ namespace BulkyBookWeb.Controllers
 {
 
     [Area("Admin")]
-    //[Authorize]
+    [Authorize(Roles = SD.Role_Admin)]
     public class OrderController : Controller
     {
 
