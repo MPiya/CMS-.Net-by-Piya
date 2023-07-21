@@ -571,3 +571,9 @@ C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\vi\Humanize
 C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\zh-CN\Humanizer.resources.dll
 C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\zh-Hans\Humanizer.resources.dll
 C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\zh-Hant\Humanizer.resources.dll
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\refs\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\BouncyCastle.Cryptography.dll
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\MailKit.dll
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\MimeKit.dll
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\Bon\source\repos\BulkyBookWeb\BulkyBookWeb\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll

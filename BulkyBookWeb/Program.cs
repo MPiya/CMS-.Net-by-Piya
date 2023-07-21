@@ -32,6 +32,7 @@ builder.Services.AddScoped<IUnitOfWork,UnitOfWork>();
 builder.Services.AddScoped<IDbInitializer, DbInitializer>();
 builder.Services.AddSingleton<IEmailSender, EmailSender>();
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+builder.Services.AddTransient<IEmailSender, EmailSender>();
 
 //This override Path default from Indentity
 builder.Services.ConfigureApplicationCookie(options => {
